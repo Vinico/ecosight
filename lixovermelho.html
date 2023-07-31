@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lixeira Vermelho</title>
+    <link rel="stylesheet" href="stylelixovermelho.css">
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="index.html" id="ecosight">Ecosight</a>
+        </div> 
+        <a id="Sobre" class="btnsobre" href="#">Sobre</a>
+    </nav>
+    <main>
+        <div class="title"> Plásticos </div>
+
+        <div class="container">
+            <button class="boxes btncoisas" onclick="falar()">
+                <img src="midia/garrafapet.png" alt="" >
+                <p>Garrafas PET</p>
+                <script>
+                    function falar(){
+                        window.speechSynthesis.cancel
+                        let ut = new SpeechSynthesisUtterance("Garrafas pet")
+                        window.speechSynthesis.speak(ut)
+                    }
+                </script>
+            </button>
+            <button class="boxes btncoisas" onclick="falar2()">
+                <img src="midia/embalagemshampoo.png" alt="" >
+                <p>Embalagens</p>
+                <script>
+                    function falar2(){
+                        window.speechSynthesis.cancel
+                        let ut = new SpeechSynthesisUtterance("Embalagens")
+                        window.speechSynthesis.speak(ut)
+                    }
+                </script>
+            </button>
+            <button class="boxes btncoisas" onclick="falar3()">
+                <img src="midia/sacolasplasticas.png" alt="" width="150px" height="150px">
+                <p>Sacolas plásticas</p>
+                <script>
+                    function falar3(){
+                        window.speechSynthesis.cancel
+                        let ut = new SpeechSynthesisUtterance("Sacolas plásticas")
+                        window.speechSynthesis.speak(ut)
+                    }
+                </script>
+            </button>
+            <button class="boxes btncoisas" onclick="falar4()">
+                <img src="midia/canospvc.png" alt="" >
+                <p>Canos e tubos PVC</p>
+                <script>
+                    function falar4(){
+                        window.speechSynthesis.cancel
+                        let ut = new SpeechSynthesisUtterance("Canos e tubos PVC")
+                        window.speechSynthesis.speak(ut)
+                    }
+                </script>
+            </button>
+            <button class="boxes btncoisas" onclick="falar5()">
+                <img src="midia/lego.png" alt="" >
+                <p>Brinquedos quebrados</p>
+                <script>
+                    function falar5(){
+                        window.speechSynthesis.cancel
+                        let ut = new SpeechSynthesisUtterance("Brinquedos quebrados")
+                        window.speechSynthesis.speak(ut)
+                    }
+                </script>
+            </button>
+            <button class="boxes btncoisas" onclick="falar6()">
+                <img src="midia/copodeplastico.png" alt="" >
+                <p>Copos de plástico</p>
+                <script>
+                    function falar6(){
+                        window.speechSynthesis.cancel
+                        let ut = new SpeechSynthesisUtterance("Cópos de plástico")
+                        window.speechSynthesis.speak(ut)
+                    }
+                </script>
+            </button>
+            <button class="boxes btncoisas" onclick="falar7()">
+                <img src="midia/canudo.png" alt="" >
+                <p>Canudos de plástico</p>
+                <script>
+                    function falar7(){
+                        window.speechSynthesis.cancel
+                        let ut = new SpeechSynthesisUtterance("Canudos de plásticos")
+                        window.speechSynthesis.speak(ut)
+                    }
+                </script>
+            </button>
+            
+        </div>
+        
+    </main>
+</body>
+</html>

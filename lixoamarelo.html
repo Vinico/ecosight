@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lixeira Amarela</title>
+    <link rel="stylesheet" href="stylelixoamarelo.css">
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="index.html" id="ecosight">Ecosight</a>
+        </div> 
+        <a id="Sobre" class="btnsobre" href="#">Sobre</a>
+    </nav>
+    <main>
+        <div class="title"> Metais </div>
+
+        <div class="container">
+            <button class="boxes btncoisas" onclick="falar()">
+                <img src="midia/lata de refrigerante.png" alt="" >
+                <p>Latas</p>
+                <script>
+                    function falar(){
+                        let ut = new SpeechSynthesisUtterance("Latas")
+                        window.speechSynthesis.speak(ut)
+                    }
+                </script>
+            </button>
+            <button class="boxes btncoisas" onclick="falar2()">
+                <img src="midia/panela.png" alt="" >
+                <p>Panelas e bandejas</p>
+                <script>
+                    function falar2(){
+                        let ut = new SpeechSynthesisUtterance("Panelas e bandejas")
+                        window.speechSynthesis.speak(ut)
+                    }
+                </script>
+            </button>
+            <button class="boxes btncoisas" onclick="falar3()">
+                <img src="midia/fioseletricos.png" alt="" width="150px" height="150px">
+                <p>Fios elétricos</p>
+                <script>
+                    function falar3(){
+                        let ut = new SpeechSynthesisUtterance("Fios elétricos")
+                        window.speechSynthesis.speak(ut)
+                    }
+                </script>
+            </button>
+            <button class="boxes btncoisas" onclick="falar5()">
+                <img src="midia/chaves.png" alt="" >
+                <p>Chaves</p>
+                <script>
+                    function falar5(){
+                        let ut = new SpeechSynthesisUtterance("Chaves")
+                        window.speechSynthesis.speak(ut)
+                    }
+                </script>
+            </button>
+
+            
+        </div>
+        
+    </main>
+</body>
+</html>

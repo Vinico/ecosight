@@ -1,0 +1,141 @@
+
+body{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btnsobre{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    transition: transform 0.2s ease 0s, background-color 0.2s ease-in-out 0s
+}
+
+main{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(0deg, #002ab3, rgb(0, 71, 204));
+    width: 100%;
+    height: 75px;
+    top: 0;
+    align-content: center;
+}
+
+
+.btnsobre:hover{
+    transform: scale(1.1);
+    background-color: #7e7e7e;
+}
+
+
+#ecosight{
+    font-family: Coolvetica;
+    font-size: 28px;
+    color: white;
+    margin-left: 20px;
+    text-shadow: black 1px 3px 2px;
+
+}
+
+#Sobre{
+    float: right;
+    margin-right: 30px;
+    color: black;
+    font-family: Coolvetica;
+    font-size: 18px;
+}
+
+.title{
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    font: bold 32px 'Invi';
+    margin-top: 48px;
+    font-size: 72px;
+    background: -webkit-linear-gradient( 80deg , #001277, #0084ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container{
+    background-color: #7891b8;
+    font-family: Roboto;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.boxes{
+    width: 22%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    background-color: rgb(159, 181, 199);
+    padding: 20px;
+    font-size: 20px;
+    font-family: roboto;
+}
+
+.boxes img{
+    width: 50%;
+}
+
+.btncoisas{
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: #adb8f1;
+    outline: none;
+    transition: all 0.1s ease-in-out;
+}
+
+.btncoisas:active{
+    border: 2px solid #404458;
+    transform: scale(0.98);
+}
+
+.btncoisas:hover{
+    background-color: rgb(149, 171, 189);
+}
+
+@font-face {
+    font-family: coolvetica;
+    src: url(coolvetica\ rg.ttf);
+  }
+
+@font-face {
+    font-family: invi;
+    src: url(Invisible-ExtraBold.ttf);
+  }
+
+@font-face{
+    font-family: roboto;
+    src: url(Roboto-Black.ttf);
+}

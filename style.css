@@ -1,0 +1,226 @@
+body{
+    margin: 0px;
+    height: 5000px;
+    background-color: #daffea;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 166, 0);
+}
+
+.titulo1{
+    font-family: Coolvetica;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+    margin-left: 20px;
+    font-size: 32px;
+}
+
+.btnsobre{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    transition: transform 0.2s ease 0s, background-color 0.2s ease-in-out 0s;
+}
+
+.btnlixo{
+    background-color: aliceblue;
+    padding: 5px;
+    justify-content: center;
+    border-radius: 20%;
+    transition: transform 0.2s ease 0s, background-color 0.2s ease-in-out 0s
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(0deg, #25a55a, rgb(47, 109, 47));
+    width: 100%;
+    height: 75px;
+    top: 0;
+    align-content: center;
+}
+
+
+.btnsobre:hover{
+    transform: scale(1.1);
+    background-color: #7e7e7e;
+}
+
+#logo{
+    width: auto;
+    height: 70px;
+    margin-left: 30px;
+    
+}
+
+
+#Sobre{
+    float: right;
+    margin-right: 30px;
+    color: black;
+    font-family: Coolvetica;
+    font-size: 18px;
+}
+
+#Lixos{
+    display: flex;
+    gap: 10px;
+    align-content: ;
+    justify-items: center;
+
+}
+
+main{
+    margin: 20px;
+    
+}
+
+h2{
+    font-family: invi;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+#Boxesgeral{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.box1{
+    width: 200px;
+    height: 30px;
+    background-color: #006d2f;
+    padding: 10px;
+    border-radius: 30px 10px;
+    text-align: center;
+    
+}
+
+#BigBox1{
+    display: flex;
+    width: 47%;
+    background-color: #25a55a;
+    justify-content: ;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+    height: 630px;
+}
+
+#BigBox2{
+    display: flex;
+    width: 47%;
+    background-color: #25a55a;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+    height: 630px;
+}
+
+.imglixeiras{
+    width: 75%;
+    align-content: center;
+    justify-content: center;
+}
+
+.Lixos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease 0s, background-color 0.2s ease-in-out 0s
+    
+}
+
+.Lixos:hover{
+    transform: scale(1.1);
+}
+
+#LixoAzul:hover{
+    background-color: rgba(0, 0, 88, 1);
+}
+
+#LixoVermelho:hover{
+    background-color: rgba(104, 0, 0, 1);
+}
+
+#LixoAmarelo:hover{
+    background-color: rgb(161, 161, 0);
+}
+
+#LixoVerde:hover{
+    background-color: rgba(0, 46, 0, 1);
+}
+
+#LixoAzul{
+    background-color: rgba(0, 0, 88, 0.500);
+    border-radius: 20px;
+}
+
+#LixoVermelho{
+    background-color: rgba(104, 0, 0, 0.500);
+    border-radius: 20px;
+}
+
+#LixoAmarelo{
+    background-color: rgba(124, 124, 0, 0.500);
+    border-radius: 20px;
+}
+
+#LixoVerde{
+    background-color: rgba(0, 46, 0, 0.500);
+    border-radius: 20px;
+}
+
+#lixeirasr{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80%;
+    width: 90%;
+    border-radius: 20px;
+    gap: 20px;
+    
+}
+
+#agua{
+    border-radius: 20px;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 104, 0, 0.582);
+    opacity: 60%;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+
+#agua:hover{
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+#ecosight{
+    font-family: Coolvetica;
+    font-size: 28px;
+    color: white;
+    margin-left: 20px;
+    text-shadow: black 1px 3px 2px;
+}
+
+
+@font-face {
+    font-family: coolvetica;
+    src: url(coolvetica\ rg.ttf);
+  }
+
+@font-face {
+    font-family: invi;
+    src: url(Invisible-ExtraBold.ttf);
+  }

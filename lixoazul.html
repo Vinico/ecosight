@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lixeira Azul</title>
+    <link rel="stylesheet" href="stylelixoazul.css">
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="index.html" id="ecosight">Ecosight</a>
+        </div> 
+        <a id="Sobre" class="btnsobre" href="#">Sobre</a>
+    </nav>
+    <main>
+        <div class="title"> Papéis </div>
+
+        <div class="container">
+            <button class="boxes btncoisas" onclick="falar()">
+                <img src="midia/papel.png" alt="" >
+                <p id="idpapel">Papel</p>
+                <script>
+                    function falar(){
+                        window.speechSynthesis.cancel
+                        let ut = new SpeechSynthesisUtterance("Papel")
+                        window.speechSynthesis.speak(ut)
+                    }
+                </script>
+            </button>
+            <button class="boxes btncoisas" onclick="falar2()">
+                <img src="midia/papelão.png" alt="" >
+                <p>Papelão</p>
+                <script>
+                    function falar2(){
+                        window.speechSynthesis.cancel
+                        let ut = new SpeechSynthesisUtterance("Papelão")
+                        window.speechSynthesis.speak(ut)
+                    }
+                </script>
+            </button>
+            <button class="boxes btncoisas" onclick="falar3()">
+                <img src="midia/sacoladepapelao.png" alt="" width="150px" height="150px">
+                <p>Sacolas de papelão</p>
+                <script>
+                    function falar3(){
+                        window.speechSynthesis.cancel
+                        let ut = new SpeechSynthesisUtterance("Sacolas de papelão")
+                        window.speechSynthesis.speak(ut)
+                    }
+                </script>
+            </button>
+            <button class="boxes btncoisas" onclick="falar4()">
+                <img src="midia/Jornal.png" alt="" >
+                <p>Jornal</p>
+                <script>
+                    function falar4(){
+                        window.speechSynthesis.cancel
+                        let ut = new SpeechSynthesisUtterance("Jornal")
+                        window.speechSynthesis.speak(ut)
+                    }
+                </script>
+            </button>
+            <button class="boxes btncoisas" onclick="falar5()">
+                <img src="midia/caderno.png" alt="" >
+                <p>Cadernos e rascunhos</p>
+                <script>
+                    function falar5(){
+                        window.speechSynthesis.cancel
+                        let ut = new SpeechSynthesisUtterance("Cadernos e rascunhos")
+                        window.speechSynthesis.speak(ut)
+                    }
+                </script>
+            </button>
+            <button class="boxes btncoisas" onclick="falar6()">
+                <img src="midia/caixa de suco.png" alt="" >
+                <p>Embalagens de papel</p>
+                <script>
+                    function falar6(){
+                        window.speechSynthesis.cancel
+                        let ut = new SpeechSynthesisUtterance("Embalagens de papel")
+                        window.speechSynthesis.speak(ut)
+                    }
+                </script>
+            </button>
+            
+        </div>
+        
+    </main>
+</body>
+</html>

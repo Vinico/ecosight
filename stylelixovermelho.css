@@ -90,7 +90,7 @@ nav{
 }
 
 .boxes{
-    width: 22%;
+    width: 10rem;
     height: 200px;
     display: flex;
     flex-direction: column;

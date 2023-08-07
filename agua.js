@@ -7,7 +7,7 @@ function mostrar(x){
     divresult.replaceChildren()
 
     
-    if(kginput >= 1){
+    if(kginput >= 1 & kginput <= 200){
         document.getElementById("result").innerHTML = `<p id="textresultcalc">Você deve tomar no mínimo ${(kginput*35/1000).toFixed(2)}L de água por dia</p>`;
 
         var i = 0
@@ -24,7 +24,11 @@ function mostrar(x){
 
         
     }
-    else{
+    else if(kginput <= 0.99){
         document.getElementById("result").innerHTML = `O valor mínimo é 1kg`;
+    }
+
+    else{
+        document.getElementById("result").innerHTML = `O valor máximo é 200kg`;
     }
 }

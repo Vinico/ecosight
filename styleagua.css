@@ -17,6 +17,7 @@ a{
 
 main{
     display: flex;
+    flex-wrap: wrap;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -50,9 +51,6 @@ nav{
 
 }
 
-#gasto{
-    width: 500px;
-}
 
 #Sobre{
     float: right;
@@ -68,9 +66,9 @@ nav{
     vertical-align: top;
     margin: 10px;
     background-image: linear-gradient(to top,#607e9b, rgb(125, 178, 199));
-    height: 280px;
+    height: 32rem;
     padding: 10px;
-    width: 30%;
+    width: 32rem;
     border: 2px solid rgb(48, 75, 165);
     overflow: hidden;
 }
@@ -99,8 +97,7 @@ nav{
 }
 
 .imglitro{
-    width: 25%;
-    height: auto;
+    height: 10rem;
 }
 
 #textresultcalc{
@@ -110,6 +107,7 @@ nav{
 #divincalc{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #gasto{
@@ -122,9 +120,9 @@ nav{
 }
 
 #iframe1{
-    width: 100%;
+    width: 47rem;
     margin-top: 10px;
-    height: 300px;
+    height: 33.3rem;
     border: 2px solid rgb(48, 75, 165);
 }
 
